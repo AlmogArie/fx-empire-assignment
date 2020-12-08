@@ -1,0 +1,23 @@
+.graph-section {
+    width: 1100px;
+
+    .graph-container {
+        margin-top: 30px;
+        width: 1000px;
+    }
+}
+
+
+
+
+@media screen and (max-width:480px) {
+
+    .graph-section {
+        margin-top: 40px;
+        width: 375px;
+
+        .graph-container {
+            width: 350px;
+        }
+    }
+}
