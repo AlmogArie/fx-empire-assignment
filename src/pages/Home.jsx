@@ -21,7 +21,7 @@ class Home extends Component {
 
     // Load the graph data and setting state.
     loadGraphData = async (period, precision) => {
-        var graphData = await getGraphData(period, precision)
+        const graphData = await getGraphData(period, precision)
         this.setState({ graphData })
         this.setState({ isLoading: false })
 
@@ -30,7 +30,8 @@ class Home extends Component {
     // A function which passed as props for the buttons component to change time stamps when calling the API
     onChangePeriod = async (period, precision) => {
         this.setState({ isLoading: true })
-        var newGraphData = await this.loadGraphData(period, precision)
+        const newGraphData = await this.loadGraphData(period, precision)
+        return newGraphData
     }
 
 

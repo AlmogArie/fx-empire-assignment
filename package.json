@@ -1,5 +1,5 @@
 {
-  "homepage":"http://AlmogArie.github.io/fx-empire-assignment",
+  "homepage": "http://AlmogArie.github.io/fx-empire-assignment",
   "name": "fx-empire",
   "version": "0.1.0",
   "private": true,
@@ -15,12 +15,11 @@
     "react-dom": "^17.0.1",
     "react-loading": "^2.0.3",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^1.0.1"
+    "react-scripts": "4.0.1"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

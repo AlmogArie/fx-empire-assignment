@@ -6,8 +6,7 @@ function store(key, value) {
 
 // Loading from localSession
 function load(key, defaultValue = []) {
-    var value = sessionStorage[key];
-    console.log('loading from storage');
+    let value = sessionStorage[key];
     if (!value) return defaultValue
     else return JSON.parse(value);
 }

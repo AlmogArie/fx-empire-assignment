@@ -2,7 +2,7 @@
 
 Full-stack home assignment for FX Empire. Language: JavaScript. Workframe: React JS.
 
-My initial idea was to work with React redux-thunk and use React Hooks as well but after designing the functionality of this web application I have decided that using those technologies probably will be useless because of the simplicity of the application. 
+My initial idea was to work with React redux-thunk but after designing the functionality of this web application I have decided that using those technologies probably will be useless because of the simplicity of the application and the simple state of the application. 
 It took me a while to understand and work with Highcharts library but after this assignment, I feel more confident and working and building graphs with disorganized data. 
 
 ## Dependencies:

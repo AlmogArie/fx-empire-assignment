@@ -21,10 +21,19 @@ function Graph(props) {
             reflow: true
         },
         rangeSelector: {
-            selected: 1
+            inputEnabled: false,
+            buttonTheme: {
+                visibility: 'hidden'
+            },
+            labelStyle: {
+                visibility: 'hidden'
+            },
         },
         title: {
             text: 'FX Empire - Stock API'
+        },
+        subtitle: {
+            text: 'Dates 8/28/2020 - 9/4/2020'
         },
         legend: {
             enabled: true
@@ -41,9 +50,6 @@ function Graph(props) {
             data: props.data
         },
         ],
-        rangeSelector: {
-            allButtonsEnabled: false,
-        },
         containerProps: {
 
         },

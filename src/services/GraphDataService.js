@@ -11,7 +11,7 @@ async function getGraphData(period, precision) {
 
     const PORT = `https://www.fxempire.com/api/v1/en/stocks/chart/candles?Identifier=AAPL.XNAS&IdentifierType=Symbol&AdjustmentMethod=All&IncludeExtended=False&period=${period}&Precision=${precision}&StartTime=8/28/2020%2016:0&EndTime=9/4/2020%2023:59&_fields=ChartBars.StartDate,ChartBars.High,ChartBars.Low,ChartBars.StartTime,ChartBars.Open,ChartBars.Close,ChartBars.Volume`
 
-    var localGraphData = storageService.load(`${period}-${precision}`)
+    const localGraphData = storageService.load(`${period}-${precision}`)
 
     if (localGraphData.length) return localGraphData
 
@@ -20,7 +20,7 @@ async function getGraphData(period, precision) {
         const data = await axios.get(PORT)
         const graphData = data.data
 
-        var graphDataArray = graphData.map(Object.values)
+        let graphDataArray = graphData.map(Object.values)
 
         graphDataArray.forEach(arr => {
             arr.splice(0, 2)

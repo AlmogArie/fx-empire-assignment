@@ -28,8 +28,9 @@
 
 @media screen and (max-width:480px) {
     .btns {
-        margin: 15px 0px 0px;
+        margin: 0;
         border-bottom: 2px solid rgb(153, 153, 153);
+        max-width: 365px;
 
         .period-btn {
             font-size: 17px;
