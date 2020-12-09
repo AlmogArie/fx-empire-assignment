@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/fx-empire-assignment/static/css/main.1c45c038.chunk.css",
-    "main.js": "/fx-empire-assignment/static/js/main.0525fa67.chunk.js",
-    "main.js.map": "/fx-empire-assignment/static/js/main.0525fa67.chunk.js.map",
-    "runtime-main.js": "/fx-empire-assignment/static/js/runtime-main.1cd365d9.js",
-    "runtime-main.js.map": "/fx-empire-assignment/static/js/runtime-main.1cd365d9.js.map",
-    "static/js/2.1860388e.chunk.js": "/fx-empire-assignment/static/js/2.1860388e.chunk.js",
-    "static/js/2.1860388e.chunk.js.map": "/fx-empire-assignment/static/js/2.1860388e.chunk.js.map",
-    "static/js/3.2a88c2fe.chunk.js": "/fx-empire-assignment/static/js/3.2a88c2fe.chunk.js",
-    "static/js/3.2a88c2fe.chunk.js.map": "/fx-empire-assignment/static/js/3.2a88c2fe.chunk.js.map",
+    "main.css": "/fx-empire-assignment/static/css/main.0ea08397.chunk.css",
+    "main.js": "/fx-empire-assignment/static/js/main.9c6f3932.chunk.js",
+    "main.js.map": "/fx-empire-assignment/static/js/main.9c6f3932.chunk.js.map",
+    "runtime-main.js": "/fx-empire-assignment/static/js/runtime-main.9905301e.js",
+    "runtime-main.js.map": "/fx-empire-assignment/static/js/runtime-main.9905301e.js.map",
+    "static/js/2.73878f14.chunk.js": "/fx-empire-assignment/static/js/2.73878f14.chunk.js",
+    "static/js/2.73878f14.chunk.js.map": "/fx-empire-assignment/static/js/2.73878f14.chunk.js.map",
     "index.html": "/fx-empire-assignment/index.html",
-    "static/css/main.1c45c038.chunk.css.map": "/fx-empire-assignment/static/css/main.1c45c038.chunk.css.map",
-    "static/js/2.1860388e.chunk.js.LICENSE.txt": "/fx-empire-assignment/static/js/2.1860388e.chunk.js.LICENSE.txt",
-    "static/media/logo-full.46c8a59e.svg": "/fx-empire-assignment/static/media/logo-full.46c8a59e.svg"
+    "static/css/main.0ea08397.chunk.css.map": "/fx-empire-assignment/static/css/main.0ea08397.chunk.css.map",
+    "static/js/2.73878f14.chunk.js.LICENSE.txt": "/fx-empire-assignment/static/js/2.73878f14.chunk.js.LICENSE.txt",
+    "static/media/logo-full.2e319826.svg": "/fx-empire-assignment/static/media/logo-full.2e319826.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1cd365d9.js",
-    "static/js/2.1860388e.chunk.js",
-    "static/css/main.1c45c038.chunk.css",
-    "static/js/main.0525fa67.chunk.js"
+    "static/js/runtime-main.9905301e.js",
+    "static/js/2.73878f14.chunk.js",
+    "static/css/main.0ea08397.chunk.css",
+    "static/js/main.9c6f3932.chunk.js"
   ]
 }
